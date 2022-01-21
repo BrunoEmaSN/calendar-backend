@@ -31,6 +31,7 @@ const crearUsuario = async( req, res = response ) => {
         });
     }
     catch ( e ){
+        console.log( e );
         res.status(500).json({
             ok: false,
             msg: 'Por favor hable con el soporte tecnico'
@@ -69,6 +70,7 @@ const loginUsuario = async( req, res = response ) => {
         });
     }
     catch ( e ){
+        console.log( e );
         res.status(500).json({
             ok: false,
             msg: 'Por favor hable con el soporte tecnico'

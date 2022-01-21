@@ -33,7 +33,7 @@ const createEvento = async ( req, res = response ) => {
         console.log( e );
         res.status(500).json({
             ok: false,
-            msg: 'contactese con soporte tecnico'
+            msg: 'Por favor hable con el soporte tecnico'
         });
     }
 }
@@ -73,7 +73,7 @@ const updateEvento = async ( req, res = response ) => {
         console.log( e );
         res.status(500).json({
             ok: false,
-            msg: 'contactese con el soporte tecnico',
+            msg: 'Por favor hable con el soporte tecnico',
         });
     }
     
@@ -107,7 +107,7 @@ const deleteEvento = async ( req, res = response ) => {
         console.log( e );
         res.status(500).json({
             ok: false,
-            msg: 'contactese con el soporte tecnico',
+            msg: 'Por favor hable con el soporte tecnico',
         });
     }
 }

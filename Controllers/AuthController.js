@@ -71,7 +71,7 @@ const loginUsuario = async( req, res = response ) => {
     catch ( e ){
         res.status(500).json({
             ok: false,
-            msg: 'Por favor hable con el soporte tecnico'
+            msg: e
         });
     }
 }

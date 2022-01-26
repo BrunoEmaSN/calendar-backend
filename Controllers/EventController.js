@@ -5,7 +5,7 @@ const getAllEventos = async ( req, res = response ) => {
     const eventos = await EventoModel.find().populate('user', 'name');
     res.status(201).json({
         ok: true,
-        msg: eventos
+        eventos
     });
 }
 

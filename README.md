@@ -1,6 +1,6 @@
 # Calendar-backend
 
-[![npm version](https://img.shields.io/npm/v/express-validator.svg)](https://www.npmjs.com/package/express-validator)
+![npm version](https://img.shields.io/npm/v/express-validator.svg)
 
 
 This is a repository meant to serve as a starting point if you want to build a Rest API with nodejs, express and MongoDB
